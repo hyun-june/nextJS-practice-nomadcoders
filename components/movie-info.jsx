@@ -1,5 +1,5 @@
+import { API_URL } from "../app/constants";
 import style from "../styles/movie-info.module.css"
-import { API_URL } from "../app/(home)/page";
 
 export async function  getMovie(id) {
     console.log(`Fetching movies: ${Date.now()}`)
